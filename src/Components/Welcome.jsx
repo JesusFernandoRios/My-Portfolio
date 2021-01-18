@@ -1,5 +1,5 @@
 import React from 'react'
-import './Style.css/Welcome.css'
+import './Style/Welcome.css'
 function Welcome() {
     return (
         <div className="Welcome">
@@ -10,7 +10,7 @@ function Welcome() {
                 </div>
                 <div className="navbar">
                     <ul className="links">
-                        <li><a href="null">About Me</a></li>
+                        <li><a href=".AboutMe">About Me</a></li>
                         <li><a href="null">Portfolio</a></li>
                         <li><a href="null">Contact Me</a></li>
                     </ul>
