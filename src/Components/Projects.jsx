@@ -36,8 +36,16 @@ const content = [
 
 export default function Projects() {
     return (
-        <div className="Projects">
-            <h1 className="myProjects">My Projects</h1>
+        <div id="Projects" className="Projects">
+            
+            <div className="projects__navbar">
+              <h1 className="myProjects">My Projects</h1>
+              <ul className="project__links">
+                <li><a href="#About">About Me</a></li>
+                <li><a href="#Contact">Contact Me</a></li>
+              </ul>
+            </div>
+
             <Slider className="slider-wrapper">
                 {content.map((item, index) => (
                     <div

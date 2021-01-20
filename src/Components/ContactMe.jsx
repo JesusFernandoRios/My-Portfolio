@@ -1,11 +1,14 @@
 import React from 'react'
 import './Style/ContactMe.css'
+import logo from '../media/JR.png'
 
 export default function ContactMe() {
     return (
-        <div className="ContactMe">
+        <div id="Contact" className="ContactMe">
             <h1 className="contact__header">Contact Me</h1>
-            <form action="https://submit-form.com/QL2cL0nQU3o5v4PPw3bMW" target="_self">
+
+            <div className="contact__form">
+                <form action="https://submit-form.com/QL2cL0nQU3o5v4PPw3bMW" target="_self">
                     {/* <div className="form__container"> */}
                     <input type="hidden" name="_redirect" value="https://jesusfernandorios.github.io/react-portfolio/"/>
                     <h3>E-mail</h3>
@@ -16,10 +19,21 @@ export default function ContactMe() {
                     <textarea name="message" placeholder="Message"></textarea>
                     <br/>
                     {/* <!-- A button of type submit --> */}
-                    <button type="submit">Submit</button>
+                    <button className="submitBtn" type="submit">Submit</button>
                  {/* </div> */}
                     
-            </form>
+                </form>
+            </div>
+            <div className="footer">
+                <div className="footer__logo">
+                    <img className="logo" src={logo} alt="my Logo"/>
+                </div>
+
+                <div className="footer__content">
+                    <p>Created using React.js and Particles.js</p>
+                </div>
+            </div>
+            
         </div>
     )
 }

@@ -4,15 +4,15 @@ function Welcome() {
     return (
         <div className="Welcome">
             <header className="top">
-                <div className="logo">
+                <div className="print">
                     <div className="name">Jesus Fernando Rios</div>
                     <div>Full Stack Developer</div>
                 </div>
-                <div className="navbar">
+                <div className="welcome__navbar">
                     <ul className="links">
-                        <li><a href=".AboutMe">About Me</a></li>
-                        <li><a href="null">Portfolio</a></li>
-                        <li><a href="null">Contact Me</a></li>
+                        <li><a id="welcome" href="#About">About Me</a></li>
+                        <li><a id="welcome" href="#Projects">Portfolio</a></li>
+                        <li><a id="welcome" href="#Contact">Contact Me</a></li>
                     </ul>
                 </div>
             </header>

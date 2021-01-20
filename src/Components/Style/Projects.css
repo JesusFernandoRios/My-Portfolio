@@ -6,7 +6,18 @@
 }
 
 .myProjects {
-    margin-left: 7%;
+  margin-left: 7%;
+
+}
+
+.projects__navbar {
+  display: flex;
+}
+
+.project__links {
+  margin-top: 2%;
+  margin-left: auto;
+  padding: 30px;
 }
 
 /* slider css */

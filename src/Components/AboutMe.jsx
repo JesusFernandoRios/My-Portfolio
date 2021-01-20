@@ -4,7 +4,7 @@ import './Style/AboutMe.css'
 
 export default function AboutMe() {
     return (
-        <div className="AboutMe">
+        <div id="About" className="AboutMe">
             <div className="left">
                 <h1>About Me</h1>
                 <h4>
@@ -19,6 +19,12 @@ export default function AboutMe() {
             
             </div>
             <div className="right">
+                <div className="navbar">
+                    <ul className="links">
+                        <li><a className="about__links" href="#Projects">Portfolio</a></li>
+                        <li><a className="about__links" href="#Contact">Contact Me</a></li>
+                    </ul>
+                </div>
                 <img className="myPicture" src={Me} alt="Jesus Fernando Rios" />
             </div>
         </div>
