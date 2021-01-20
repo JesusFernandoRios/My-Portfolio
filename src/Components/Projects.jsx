@@ -12,7 +12,9 @@ const content = [
     description:
       "I Created this Application to share with my friends and family so they can be updated on covid information regarging total cases, cases by country, recoveries and deaths.",
     button: "Repository",
+    repository: "https://github.com/JesusFernandoRios/Covid-19-tracker",
     secondButton: "Live Application",
+    live:"https://jesusfernandorios.github.io/Covid-19-tracker/",
     image: covidTracker,
   },
   {
@@ -20,7 +22,9 @@ const content = [
     description:
       "Search and save book titles using this application. It Takes book information from google books and lets you save them for later",
     button: "Repository",
+    repository:"https://github.com/JesusFernandoRios/googleBookSearch",
     secondButton: "Live Application",
+    live:"https://sleepy-hollows.herokuapp.com/",
     image: google,
   },
   {
@@ -40,10 +44,6 @@ export default function Projects() {
             
             <div className="projects__navbar">
               <h1 className="myProjects">My Projects</h1>
-              <ul className="project__links">
-                <li><a href="#About">About Me</a></li>
-                <li><a href="#Contact">Contact Me</a></li>
-              </ul>
             </div>
 
             <Slider className="slider-wrapper">
@@ -56,8 +56,8 @@ export default function Projects() {
                     <div className="inner">
                         <h1>{item.title}</h1>
                         <p>{item.description}</p>
-                        <button>{item.button}</button>
-                        <button>{item.secondButton}</button>
+                        <a className="project-links" href={item.repository} target="_blank">{item.button}</a>
+                        <a className="project-links" href={item.live} target="_blank">{item.secondButton}</a>
                     </div>
                     </div>
                 ))}

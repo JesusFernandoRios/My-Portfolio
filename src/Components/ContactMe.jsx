@@ -10,7 +10,6 @@ export default function ContactMe() {
             <div className="contact__form">
                 <form action="https://submit-form.com/QL2cL0nQU3o5v4PPw3bMW" target="_self">
                     {/* <div className="form__container"> */}
-                    <input type="hidden" name="_redirect" value="https://jesusfernandorios.github.io/react-portfolio/"/>
                     <h3>E-mail</h3>
                     <input type="text" name="email" placeholder="Email"/>
                     <h3>Subject</h3>

@@ -29,12 +29,20 @@ textarea {
     height: 200px;
     width: 90%;
     max-width: 90%;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: lightgray;
+    outline: none;
 }
 
 input {
     width: 60%;
     height: 30px;
     max-width: 90%;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: lightgray;
+    outline: none;
 }
 
 .submitBtn {

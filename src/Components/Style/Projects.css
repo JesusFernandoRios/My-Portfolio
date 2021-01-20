@@ -21,7 +21,7 @@
 }
 
 /* slider css */
-button {
+.project-links {
     -webkit-appearance: none;
             appearance: none;
     -webkit-filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.1));
@@ -40,35 +40,21 @@ button {
     font-size: 13px;
     cursor: cursor;
     margin-right: 10px;
+    color: black;
 }
   
-button:hover {
+.project-links:hover {
     color: #FFFFFF;
     background: #222222;
     -webkit-filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));
     filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));
 }
-  
-.wrapper {
-    max-width: 1335px;
-    box-sizing: border-box;
-    padding: 0 20px;
-    margin: auto;
-}
-  
-.wrapper a {
-    display: inline-block;
-    margin: 5px;
-}
-  
-.wrapper a:first-child {
-    margin-left: 0;
-}
-  
+
 .slider-wrapper {
     position: relative;
     height: 70vh;
     overflow: hidden;
+    border: 3px solid white;
 }
   
 .slide {
@@ -93,7 +79,7 @@ button:hover {
           top: 50%;
           transform: translateY(-50%);
           z-index: 10;
-          background: url('http://svgshare.com/i/41_.svg') no-repeat center center / 16px;
+          background: url('../../media/right-arrow.png') no-repeat center center / 100px;
           width: 32px;
           height: 32px;
           text-indent: -9999px;
@@ -101,7 +87,7 @@ button:hover {
 }
   
 .previousButton:hover, .nextButton:hover {
-    background: url('http://svgshare.com/i/41_.svg') no-repeat center center / 16px;
+    background: url('../../media/right-arrow.png') no-repeat center center / 100px;
 }
   
 .previousButton {
