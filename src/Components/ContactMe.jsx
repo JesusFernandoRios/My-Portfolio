@@ -1,6 +1,5 @@
 import React from 'react'
 import './Style/ContactMe.css'
-import logo from '../media/JR.png'
 
 export default function ContactMe() {
     return (
@@ -8,6 +7,11 @@ export default function ContactMe() {
             <h1 className="contact__header">Contact Me</h1>
 
             <div className="contact__form">
+                <div className="contact__information">
+                    <h2>For a Quick Response Message me here directly
+                        Or checkout my social media
+                    </h2>
+                </div>
                 <form action="https://submit-form.com/QL2cL0nQU3o5v4PPw3bMW" target="_self">
                     {/* <div className="form__container"> */}
                     <h3>E-mail</h3>
@@ -18,19 +22,10 @@ export default function ContactMe() {
                     <textarea name="message" placeholder="Message"></textarea>
                     <br/>
                     {/* <!-- A button of type submit --> */}
-                    <button className="submitBtn" type="submit">Submit</button>
+                    <button className=" project-links submitBtn" type="submit">Send Message</button>
                  {/* </div> */}
                     
                 </form>
-            </div>
-            <div className="footer">
-                <div className="footer__logo">
-                    <img className="logo" src={logo} alt="my Logo"/>
-                </div>
-
-                <div className="footer__content">
-                    <p>Created using React.js and Particles.js</p>
-                </div>
             </div>
             
         </div>

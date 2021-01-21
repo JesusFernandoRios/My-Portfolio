@@ -8,7 +8,7 @@ function Header() {
                 <div className="name">Jesus Fernando Rios</div>
                 <div>Full Stack Developer</div>
             </div>
-            <div className="welcome__navbar">
+            <div className="navbar">
                 <ul className="links">
                     <li><a id="welcome" href="#About">About Me |</a></li>
                     <li><a id="welcome" href="#Projects">Portfolio |</a></li>

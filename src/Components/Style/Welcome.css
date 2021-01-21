@@ -9,23 +9,11 @@ Canvas {
     width: 1000px;
     color: white;
     text-align: center;
+    height: 300px;
   }
   
-  h1 {
-    font-size: 80px;
-    font-family: Roboto Slab;
-    letter-spacing: 3px;
-    line-height: 80px;
-    font-weight: 500;
-    word-wrap: break-word;
-  }
-  
-  p {
-    font-size: 20px;
-    line-height: 1px;
-  }
 h1 {
-    font-size: 80px;
+    font-size: 100px;
     font-family: Oswald;
     letter-spacing: 3px;
     line-height: 80px;
@@ -36,4 +24,14 @@ h1 {
 p {
     font-size: 20px;
     line-height: 1px;
+}
+
+.fa-angle-double-down {
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.fa-angle-double-down:hover {
+    font-size: 70px;
+    
 }

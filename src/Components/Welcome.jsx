@@ -14,8 +14,8 @@ function Ring() {
     ref={mesh}
     >
       <ambientLight intensity={3}/>
-      <ringBufferGeometry  args={[5,6,50]}/>
-      <meshStandardMaterial color="purple"/>
+      <ringBufferGeometry  args={[8,9,50]}/>
+      <meshStandardMaterial color="blue"/>
       
     </mesh>
   )
@@ -43,8 +43,11 @@ function Welcome() {
         center
       >
         <div className="content">
-          <h1>Welcome</h1>
-          <p>Lets Create Amazing Things Together</p>
+            <h1>Welcome</h1>
+            <p>Lets Create Amazing Things Together</p>
+            <a href="#About" class="btn btn-circle">
+            <i class="fa fa-angle-double-down"></i>
+            </a>
         </div>
       </Html>
       <Effects down={down}/>

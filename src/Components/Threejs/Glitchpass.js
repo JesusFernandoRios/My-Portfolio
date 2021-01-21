@@ -1,7 +1,7 @@
 import { DataTexture, FloatType, Math as _Math, Mesh, OrthographicCamera, PlaneBufferGeometry, RGBFormat, Scene, ShaderMaterial, UniformsUtils } from 'three'
 import { Pass } from 'three/examples/jsm/postprocessing/Pass.js'
 
-var DigitalGlitch = {
+let DigitalGlitch = {
   uniforms: {
     tDiffuse: { value: null }, //diffuse texture
     tDisp: { value: null }, //displacement texture for digital glitch squares
@@ -67,10 +67,10 @@ var DigitalGlitch = {
     }`
 }
 
-var GlitchPass = function(dt_size) {
+let GlitchPass = function(dt_size) {
     Pass.call(this)
     if (DigitalGlitch === undefined) console.error('THREE.GlitchPass relies on THREE.DigitalGlitch')
-    var shader = DigitalGlitch
+    let shader = DigitalGlitch
     this.uniforms = UniformsUtils.clone(shader.uniforms)
     if (dt_size === undefined) dt_size = 64
     this.uniforms['tDisp'].value = this.generateHeightmap(dt_size)
@@ -115,17 +115,17 @@ var GlitchPass = function(dt_size) {
     },
   
     generateHeightmap: function(dt_size) {
-      var data_arr = new Float32Array(dt_size * dt_size * 3)
-      var length = dt_size * dt_size
+      let data_arr = new Float32Array(dt_size * dt_size * 3)
+      let length = dt_size * dt_size
   
-      for (var i = 0; i < length; i++) {
-        var val = _Math.randFloat(0, 1)
+      for (let i = 0; i < length; i++) {
+        let val = _Math.randFloat(0, 1)
         data_arr[i * 3 + 0] = val
         data_arr[i * 3 + 1] = val
         data_arr[i * 3 + 2] = val
       }
   
-      var texture = new DataTexture(data_arr, dt_size, dt_size, RGBFormat, FloatType)
+      let texture = new DataTexture(data_arr, dt_size, dt_size, RGBFormat, FloatType)
       texture.needsUpdate = true
       return texture
     }
