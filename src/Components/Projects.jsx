@@ -42,8 +42,10 @@ export default function Projects() {
     return (
         <div id="Projects" className="Projects">
             
-            <div className="projects__navbar">
+            <div className="projects__content">
               <h1 className="myProjects">My Projects</h1>
+
+              <h4>Here are some of my completed and ongoing projects</h4>
             </div>
 
             <Slider className="slider-wrapper">
@@ -56,8 +58,8 @@ export default function Projects() {
                     <div className="inner">
                         <h1>{item.title}</h1>
                         <p>{item.description}</p>
-                        <a className="project-links" href={item.repository} target="_blank">{item.button}</a>
-                        <a className="project-links" href={item.live} target="_blank">{item.secondButton}</a>
+                        <a className="project-links" href={item.repository} target="_blank" rel="noreferrer">{item.button}</a>
+                        <a className="project-links" href={item.live} target="_blank" rel="noreferrer">{item.secondButton}</a>
                     </div>
                     </div>
                 ))}

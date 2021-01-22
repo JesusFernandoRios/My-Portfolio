@@ -29,7 +29,8 @@ function Welcome() {
 
   return (
     <Canvas
-      
+    
+      id="home"
       camera={{ fov: 100, position: [0, 0, 10] }}
       onMouseMove={onMouseMove}
       onMouseUp={() => set(false)}

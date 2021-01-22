@@ -35,3 +35,13 @@ p {
     font-size: 70px;
     
 }
+
+@media (max-width: 480px) {
+   Canvas {
+       width: 100px;
+   }
+
+   .content > h1 {
+       font-size: 70px;
+   }
+}
