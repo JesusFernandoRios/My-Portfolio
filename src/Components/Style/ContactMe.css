@@ -1,7 +1,6 @@
 .contactMe {
     color: white;
     width: 100%;
-    height: 100vh;
     background-color: black;
 }
 
@@ -125,6 +124,7 @@ input {
     }
 
     form {
+        text-align: center;
         margin-left: 10%;
     }
     form > input {
@@ -132,7 +132,11 @@ input {
     }
 
     .submitBtn {
-        width: 100%;
-        margin-left: 0;
+        width: 80%;
+        margin-left: 10%;
+        padding-left: 20%;
+        
+
+    
     }
 }

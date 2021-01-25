@@ -58,22 +58,6 @@ export default function Projects() {
             <div className="projects__content">
               <h1 className="myProjects">My Projects</h1>
 
-              <div className="project__skills">
-                <img src={html} alt=""/>
-                <img src={css} alt=""/>
-                <img src={js} alt=""/>
-                <img className="iconBackground" src={jquery} alt=""/>
-                <img className="smallIcons" src={express} alt=""/>
-                <img className="smallIcons" src={node} alt=""/>
-                <img className="bootstrap" src={bootstrap} alt=""/>
-                <img className="smallIcons" src={reactjs} alt=""/>
-                <img className="smallIcons" src={mongo} alt=""/>
-                <img className="smallIcons" src={mysql} alt=""/>
-                <img className="npm" src={npm} alt=""/>
-                <img className="smallIcons" src={firebase} alt=""/>
-                <img className="smallIcons" src={github} alt=""/>
-              </div>
-
               <h4>
                 I approach all projects with passion, curiosity and a learning mentality. 
               </h4>
@@ -98,6 +82,23 @@ export default function Projects() {
                     </div>
                 ))}
             </Slider>
+
+            <div className="project__skills">
+                <img src={html} alt=""/>
+                <img src={css} alt=""/>
+                <img src={js} alt=""/>
+                <img className="iconBackground" src={jquery} alt=""/>
+                <img className="smallIcons" src={express} alt=""/>
+                <img className="smallIcons" src={node} alt=""/>
+                <img className="bootstrap" src={bootstrap} alt=""/>
+                <img className="smallIcons" src={reactjs} alt=""/>
+                <img className="smallIcons" src={mongo} alt=""/>
+                <img className="smallIcons" src={mysql} alt=""/>
+                <img className="npm" src={npm} alt=""/>
+                <img className="smallIcons" src={firebase} alt=""/>
+                <img className="smallIcons" src={github} alt=""/>
+              </div>
+              
         </div>
     )
 }
