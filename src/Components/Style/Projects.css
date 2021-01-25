@@ -1,7 +1,6 @@
 .Projects {
     color: white;
     width: 100%;
-    height: 100vh;
     background-color: black;
 }
 
@@ -12,6 +11,11 @@
 
 .projects__content {
   display: flex;
+  flex-direction: column;
+}
+
+.projects__content > h4 {
+  text-align: center;
 }
 
 .project__links {
@@ -19,6 +23,39 @@
   margin-left: auto;
   padding: 30px;
 }
+
+.project__skills {
+  display: flex;
+  margin-top: 50px;
+  width: 80%;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 9%;
+  max-width: 80%;
+  flex-wrap: wrap;
+}
+/* badge css  */
+
+.bootstrap {
+  width: 60px;
+  background-color:purple;
+  border-radius: 30px;
+}
+.npm {
+  width: 60px;
+  background-color: red;
+  border-radius: 30px;
+}
+
+.iconBackground {
+  background-color: white;
+  border-radius: 30px;
+}
+
+.smallIcons {
+  width: 60px;
+}
+
 
 /* slider css */
 .project-links {

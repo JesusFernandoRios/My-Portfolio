@@ -5,6 +5,19 @@ import "react-animated-slider/build/horizontal.css";
 import "./Style/slider-animations.css";
 import covidTracker from '../media/covid.png'
 import google from '../media/googlebksrch.png'
+import html from '../media/skills/ihtml.png'
+import bootstrap from '../media/skills/ibootstrap.png'
+import css from '../media/skills/icss.png'
+import express from '../media/skills/iexpress.png'
+import github from '../media/skills/igithub.png'
+import jquery from '../media/skills/ijquery.png'
+import js from '../media/skills/ijs.png'
+import mongo from '../media/skills/imongodb.png'
+import mysql from '../media/skills/imysql.png'
+import node from '../media/skills/inodejs.png'
+import reactjs from '../media/skills/ireact.png'
+import firebase from '../media/skills/ifirebase.png'
+import npm from '../media/skills/inpm.png'
 
 const content = [
   {
@@ -45,7 +58,28 @@ export default function Projects() {
             <div className="projects__content">
               <h1 className="myProjects">My Projects</h1>
 
+              <div className="project__skills">
+                <img src={html} alt=""/>
+                <img src={css} alt=""/>
+                <img src={js} alt=""/>
+                <img className="iconBackground" src={jquery} alt=""/>
+                <img className="smallIcons" src={express} alt=""/>
+                <img className="smallIcons" src={node} alt=""/>
+                <img className="bootstrap" src={bootstrap} alt=""/>
+                <img className="smallIcons" src={reactjs} alt=""/>
+                <img className="smallIcons" src={mongo} alt=""/>
+                <img className="smallIcons" src={mysql} alt=""/>
+                <img className="npm" src={npm} alt=""/>
+                <img className="smallIcons" src={firebase} alt=""/>
+                <img className="smallIcons" src={github} alt=""/>
+              </div>
+
+              <h4>
+                I approach all projects with passion, curiosity and a learning mentality. 
+              </h4>
+
               <h4>Here are some of my completed and ongoing projects</h4>
+
             </div>
 
             <Slider className="slider-wrapper">
