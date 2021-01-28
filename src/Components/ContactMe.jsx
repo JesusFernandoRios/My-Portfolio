@@ -10,8 +10,8 @@ export default function ContactMe() {
 
             <div className="contact__form">
                 <div className="contact__information">
-                    <h2>For a Quick Response Message me here directly
-                        Or checkout my social media
+                    <h2>For a quick response message me here directly
+                        or checkout my social media
                     </h2>
                     <hr className="contact__line"/>
 

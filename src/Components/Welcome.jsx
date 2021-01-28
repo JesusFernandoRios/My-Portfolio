@@ -35,6 +35,8 @@ function Welcome() {
       onMouseMove={onMouseMove}
       onMouseUp={() => set(false)}
       onMouseDown={() => set(true)}
+      onTouchStart={() => set(true)}
+      onTouchEnd={() => set(false)}
     >
       <ambientLight intensity={5}/>
       <pointLight distance={100} intensity={4} color="white" />

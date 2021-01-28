@@ -74,3 +74,9 @@ a {
         display: none;
     }
 }
+
+@media (height:200vh){
+    header {
+        background-color: black;
+    }
+}

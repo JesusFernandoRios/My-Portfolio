@@ -2,6 +2,7 @@ Canvas {
     background-color: black;
     width: 100%;
     height: 100vh;
+    touch-action: none;
   }
   
   
@@ -38,7 +39,9 @@ p {
 
 @media (max-width: 480px) {
    Canvas {
-       width: 100px;
+       
+       max-height: 102vh;
+       
    }
 
    .content > h1 {

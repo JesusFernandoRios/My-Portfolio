@@ -57,7 +57,7 @@
 }
 
 
-/* slider css */
+/* slider css //////////////////////////////////////////////////////////////////////////////////////////////*/
 .project-links {
     -webkit-appearance: none;
             appearance: none;
@@ -220,6 +220,9 @@
     font-size: 14px;
     display: block;
   }
+
+/* Media Queries ///////////////////////////////////////////////////////////////////////////////////////// */
+
   
 @media (max-width: 480px){
 
@@ -250,6 +253,14 @@
     margin-top: 30px;
   }
 }
+
+@media (max-width: 812px){
+
+  .project__skills {
+    margin-left: 10%;
+  }
+}
+
 
 @media (max-height: 500px) {
     .slider-wrapper, .slide {

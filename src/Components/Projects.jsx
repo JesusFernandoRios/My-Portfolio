@@ -84,19 +84,19 @@ export default function Projects() {
             </Slider>
 
             <div className="project__skills">
-                <img src={html} alt=""/>
-                <img src={css} alt=""/>
-                <img src={js} alt=""/>
-                <img className="iconBackground" src={jquery} alt=""/>
-                <img className="smallIcons" src={express} alt=""/>
-                <img className="smallIcons" src={node} alt=""/>
-                <img className="bootstrap" src={bootstrap} alt=""/>
-                <img className="smallIcons" src={reactjs} alt=""/>
-                <img className="smallIcons" src={mongo} alt=""/>
-                <img className="smallIcons" src={mysql} alt=""/>
-                <img className="npm" src={npm} alt=""/>
-                <img className="smallIcons" src={firebase} alt=""/>
-                <img className="smallIcons" src={github} alt=""/>
+                <img src={html} alt="html"/>
+                <img src={css} alt="css"/>
+                <img src={js} alt="javascript"/>
+                <img className="iconBackground" src={jquery} alt="jquery"/>
+                <img className="smallIcons" src={express} alt="expressjs"/>
+                <img className="smallIcons" src={node} alt="nodejs"/>
+                <img className="bootstrap" src={bootstrap} alt="bootstrap"/>
+                <img className="smallIcons" src={reactjs} alt="react"/>
+                <img className="smallIcons" src={mongo} alt="mongodb"/>
+                <img className="smallIcons" src={mysql} alt="mysql"/>
+                <img className="npm" src={npm} alt="node package manager"/>
+                <img className="smallIcons" src={firebase} alt="firebase"/>
+                <img className="smallIcons iconBackground" src={github} alt="github"/>
               </div>
               
         </div>

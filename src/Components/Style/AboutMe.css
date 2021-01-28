@@ -55,3 +55,25 @@ h4 {
         margin-left: 20%;
     }
 }
+
+@media (max-width: 812px) {
+    .AboutMe {
+        flex-direction: row-reverse;
+        height: fit-content;
+    }
+
+    .left {
+        width: 90%;
+    }
+
+    .left > h1 {
+        font-size: 70px;
+        margin: 0;
+    }
+
+    .myPicture {
+        width: 200px;
+        margin-top: 10%;
+        margin-left: 20%;
+    }
+}
