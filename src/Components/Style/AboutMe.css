@@ -34,7 +34,7 @@ h4 {
     box-shadow: 0 0 30px purple;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 320px) {
     .AboutMe {
         flex-direction: column-reverse;
         height: fit-content;
@@ -56,10 +56,11 @@ h4 {
     }
 }
 
-@media (max-width: 812px) {
+@media (max-width: 480px) {
     .AboutMe {
-        flex-direction: row-reverse;
+        flex-direction: column-reverse;
         height: fit-content;
+        
     }
 
     .left {
@@ -77,3 +78,31 @@ h4 {
         margin-left: 20%;
     }
 }
+
+@media (max-width: 768px) {
+    .AboutMe {
+        flex-direction: column-reverse;
+        height: 100vh;
+    }
+
+    .left {
+        width: 95%;
+    }
+
+    .left > h1 {
+        font-size: 70px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .left > h4 {
+        text-align: center;
+    }
+
+    .myPicture {
+        width: 250px;
+        margin-top: 10%;
+        margin-left: 33%;
+    }
+}
+

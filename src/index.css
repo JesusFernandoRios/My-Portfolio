@@ -19,3 +19,9 @@ body {
   flex-direction: column;
   background-color: black;
 }
+
+@media (max-width: 480px) {
+  #root {
+    width: 100%;
+  }
+}

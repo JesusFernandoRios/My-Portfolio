@@ -254,10 +254,28 @@
   }
 }
 
-@media (max-width: 812px){
+@media (max-width: 768px){
 
   .project__skills {
     margin-left: 10%;
+  }
+
+  .slider-wrapper {
+    width: 90%;
+  }
+
+  .myProjects {
+    margin: 0;
+    padding: 20px;
+    font-size: 70px;
+    text-align: center;
+  }
+
+  .projects__content > h4 {
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
   }
 }
 

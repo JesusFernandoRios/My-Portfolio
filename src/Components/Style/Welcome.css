@@ -39,12 +39,26 @@ p {
 
 @media (max-width: 480px) {
    Canvas {
-       
-       max-height: 102vh;
-       
+        height: 102vh;
    }
 
    .content > h1 {
        font-size: 70px;
    }
 }
+
+@media (max-width: 320px) {
+    Canvas {
+        
+        height: 120vh;
+        
+    }
+ 
+    .content > h1 {
+        font-size: 60px;
+    }
+
+    .content > p {
+        font-size: 16px;
+    }
+ }
