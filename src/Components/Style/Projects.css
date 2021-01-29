@@ -261,7 +261,8 @@
   }
 
   .slider-wrapper {
-    width: 90%;
+    width: 85%;
+    margin-left: 7%;
   }
 
   .myProjects {
@@ -274,7 +275,6 @@
   .projects__content > h4 {
     padding: 10px;
     margin: 0;
-    width: 100%;
     text-align: center;
   }
 }

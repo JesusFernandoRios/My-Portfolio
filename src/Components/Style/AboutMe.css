@@ -82,11 +82,11 @@ h4 {
 @media (max-width: 768px) {
     .AboutMe {
         flex-direction: column-reverse;
-        height: 100vh;
+        height: fit-content;
     }
 
     .left {
-        width: 95%;
+        width: 90%;
     }
 
     .left > h1 {
@@ -102,7 +102,7 @@ h4 {
     .myPicture {
         width: 250px;
         margin-top: 10%;
-        margin-left: 33%;
+        margin-left: 13%;
     }
 }
 
