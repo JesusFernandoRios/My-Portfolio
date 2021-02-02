@@ -5,10 +5,6 @@
     margin-bottom: 5%;
 }
 
-.contact__header {
-    margin-left: 7%;
-}
-
 .contact__form {
     display: flex;
     flex-direction: row;
@@ -17,7 +13,6 @@
     padding: 20px;
     width: 60%;
     background:  black;
-    margin-left: 20%;
     border: 3px solid rgb(165, 3, 187);
     box-shadow: 0 0 100px purple;
     
@@ -117,7 +112,6 @@ input {
         padding: 0;
         width: 90%;
         flex-direction: column;
-        margin-left: 5%;
     }
 
     .contact__form > hr {
@@ -155,7 +149,6 @@ input {
         padding: 0;
         width: 90%;
         flex-direction: column;
-        margin-left: 5%;
     }
 
     .contact__information > h2 {
@@ -184,20 +177,18 @@ input {
 @media (max-width: 812px) {
 
     .contactMe {
-        height: 100%;
-        width: 90%;
-        margin-left: 5%;
+        height: fit-content;
+        
+        
     }
     .contact__header {
-        font-size: 70px;
-        text-align: center;
+        font-size: 60px;
     }
 
     .contact__form {
-        padding: 0;
-        width: 90%;
         flex-direction: column;
-        margin-left: 5%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .contact__information > h2 {
@@ -210,7 +201,6 @@ input {
 
     form {
         text-align: center;
-        margin-left: 13%;
     }
     form > input {
         width: 100%;
