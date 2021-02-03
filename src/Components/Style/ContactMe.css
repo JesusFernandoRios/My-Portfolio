@@ -5,6 +5,10 @@
     margin-bottom: 5%;
 }
 
+.contact__header {
+    margin-left: 7%;
+}
+
 .contact__form {
     display: flex;
     flex-direction: row;
@@ -185,6 +189,7 @@ input {
     }
     .contact__header {
         font-size: 60px;
+        margin-left: 0;
     }
 
     .contact__form {
