@@ -5,6 +5,7 @@ import "react-animated-slider/build/horizontal.css";
 import "./Style/slider-animations.css";
 import covidTracker from '../media/covid.png'
 import google from '../media/googlebksrch.png'
+import chatapp from '../media/Chatapp.png'
 import html from '../media/skills/ihtml.png'
 import bootstrap from '../media/skills/ibootstrap.png'
 import css from '../media/skills/icss.png'
@@ -41,12 +42,14 @@ const content = [
     image: google,
   },
   {
-    title: "Phasellus volutpat metus",
+    title: "The Chat App",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.",
-    button: "Buy now",
+      "Real time chat application with custom rooms and user names. Created using React, NodeJS and socket.io ",
+    button: "Repository",
+    repository:"https://github.com/JesusFernandoRios/chat-app",
     secondButton: "Live Application",
-    image: "https://i.imgur.com/DvmN8Hx.jpg",
+    live:"https://6030597602ba8971002f1fa8--gracious-fermat-2fcc15.netlify.app/",
+    image: chatapp,
   }
 ];
 
