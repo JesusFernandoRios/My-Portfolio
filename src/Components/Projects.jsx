@@ -28,16 +28,6 @@ const content = [
     live: "https://sleepy-hollows.herokuapp.com/",
     image: google,
   },
-  {
-    title: "The Chat App",
-    description:
-      "Real time chat application with custom rooms and user names. Created using React, NodeJS and socket.io ",
-    button: "Repository",
-    repository: "https://github.com/JesusFernandoRios/chat-app",
-    secondButton: "Live Application",
-    live: "https://6030597602ba8971002f1fa8--gracious-fermat-2fcc15.netlify.app/",
-    image: chatapp,
-  },
 ];
 
 export default function Projects({ color, ringColors }) {

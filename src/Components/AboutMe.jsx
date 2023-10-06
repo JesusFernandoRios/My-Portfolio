@@ -37,9 +37,9 @@ export default function AboutMe({ color, ringColors }) {
           <p>JavaScript | React | React Native |</p>
         </div>
       </div>
-      <div className="right">
+      {/* <div className="right">
         <img style={myImageStyle} src={Me} alt="Jesus Fernando Rios" />
-      </div>
+      </div> */}
     </div>
   );
 }
