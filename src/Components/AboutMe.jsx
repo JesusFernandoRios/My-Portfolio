@@ -1,27 +1,45 @@
-import React from 'react'
-import Me from '../media/me.jpeg'
-import './Style/AboutMe.css'
+import React from "react";
+import Me from "../media/me.jpeg";
+import "./Style/AboutMe.css";
+import html from "../media/skills/ihtml.png";
+import css from "../media/skills/icss.png";
+import github from "../media/skills/igithub.png";
+import jquery from "../media/skills/ijquery.png";
+import js from "../media/skills/ijs.png";
+import mongo from "../media/skills/imongodb.png";
+import mysql from "../media/skills/imysql.png";
+import node from "../media/skills/inodejs.png";
+import reactjs from "../media/skills/ireact.png";
+import npm from "../media/skills/inpm.png";
 
-export default function AboutMe() {
-    return (
-        <div id="About" className="AboutMe">
-            <div className="left">
-                <h1>About Me</h1>
-                <h4>
-                    I've worked my way up in the Restaurant Industry, which lead me to become Head Chef at a local Japanese restaurant. 
-                    Although this has been fulfilling, I've always been drawn towards my hobbies involving Web development. This has pushed me to make a 
-                    career change and start a new chapter in my life. Having earned my certification from the University of Arizona. 
-                    I am eager to refine and evolve my skill set and become more established as a business professional in this field. 
-                    My goal is to retire my Yanagiba Knife and to dive deep into my new career as a Full Stack Developer.
+export default function AboutMe({ color, ringColors }) {
+  const myImageStyle = {
+    width: "300px",
+    borderRadius: "15%",
+    marginTop: "30%",
+    boxShadow: `0 0 30px gray`,
+  };
+  console.log(ringColors[color]);
+  const titleStyle = {
+    color:
+      ringColors[color] != "black" ? `dark${ringColors[color]}` : "darkgray",
+  };
 
-                </h4>
-            
-            </div>
-            <div className="right">
-                <img className="myPicture" src={Me} alt="Jesus Fernando Rios" />
-            </div>
-
-            
+  return (
+    <div id="About" className="AboutMe">
+      <div className="left">
+        <h1 style={titleStyle}>About Me</h1>
+        <div>
+          <h4>
+            Hi, Im Jesus Rios. A passionate software developer based in Phoenix,
+            Arizona
+          </h4>
+          <p>JavaScript | React | React Native |</p>
         </div>
-    )
+      </div>
+      <div className="right">
+        <img style={myImageStyle} src={Me} alt="Jesus Fernando Rios" />
+      </div>
+    </div>
+  );
 }
